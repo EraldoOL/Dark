@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: black;
+}
+#Nick{
+  color: white;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+#sociais{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#sociais a img{
+  width: 15px;
+  margin: 5px;
+}
+#sociais #sociais1 img{
+  width: 17px;
+}
+#img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img img{
+  width: 200px;
+  margin: auto;
+}
+
+
+#Quem{
+  color: white;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+#Quem h1{
+  font-size: 20px;
+  font-weight: 400;
+}
+#text{
+  color: white;
+  font-size: 15px;
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  border: .5px solid white;
+  padding: 30px;
+  border-radius: 10px;
+  font-weight: 500;
+  box-shadow: .5px .5px 1.3px white;
+}
+
+#parceria{
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+#parceria h1{
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+#parceria p{
+  padding: 5px;
+  font-weight: 500;
+}
+
+
+#linha{
+  width: 95vw;
+  height: .2px;
+  background-color: white;
+  margin: auto;
+  margin-top: 40px;
+}
+
+
+#Contrato{
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+#Contrato h1{
+  font-size: 20px;
+  font-weight: 400;
+}
+#Contrato p{
+  font-weight: 500;
+  padding: 5px;
+}
+.container{
+  text-align: center;
+  margin-top: 10px;
+}
+.container button{
+  background: lightgray;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.container a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+#p{
+  color: white;
+  width: 150px;
+  font-size: 10px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+
+#Novidades{
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+#Novidades h1{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#novidade1{
+  width: 200px;
+  height: 200px;
+  background: lightgrey;
+  color: black;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 10px;
+  
+}
+
+
+#frase{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+}
+#frase p{
+  font-style: italic;
+  
+}
+
+
