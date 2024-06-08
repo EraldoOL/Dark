@@ -48,6 +48,7 @@ body {
   color: white;
   margin-top: 20px;
   margin-left: 50px;
+  width: 200px;
 }
 #Quem h1{
   font-size: 20px;
@@ -59,7 +60,7 @@ body {
   width: 300px;
   margin: auto;
   margin-top: 20px;
-  border: 2px solid #A78C54;
+  border: .5px solid #ffbf00;
   padding: 30px;
   border-radius: 10px;
   font-weight: 500;
@@ -110,7 +111,7 @@ body {
   margin-top: 10px;
 }
 .container button{
-  background: #A78C54;
+  background: #ffbf00;
   padding: 10px 20px;
   border-radius: 5px;
   border: 2px solid white;
@@ -150,7 +151,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #A78C54;
+  border: 2px solid #ffbf00;
   border-radius: 10px;
   
 }
@@ -167,4 +168,67 @@ body {
   
 }
 
+@media (min-width: 600px) and (max-width: 768px) {
+  #text {
+    width: 400px;
+  }
+
+  #novidade1 {
+    width: 300px;
+    height: 300px;
+  }
+
+  #p {
+    width: 200px;
+    font-size: 12px;
+  }
+}
+
+/* Estilos para desktops e PCs */
+@media (min-width: 769px) {
+  #Nick {
+    font-size: 1.2rem;
+    margin-left: 20px;
+  }
+  
+  #img img{
+    width: 300px;
+  }
+  #sociais a img{
+    width: 20px;
+  }
+  #sociais #sociais1 img{
+    width: 23px;
+  }
+
+  #Quem {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  #Quem h1 {
+    font-size: 1.5rem;
+  }
+
+  #text {
+    width: 500px;
+    font-size: 1.3rem;
+    padding: 40px;
+  }
+
+  #parceria h1, #Contrato h1, #Novidades h1 {
+    font-size: 1.5rem;
+  }
+
+  #novidade1 {
+    width: 400px;
+    height: 400px;
+  }
+
+  #p {
+    width: 250px;
+    font-size: 14px;
+  }
+}
 
