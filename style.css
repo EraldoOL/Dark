@@ -110,10 +110,10 @@ body {
   margin-top: 10px;
 }
 .container button{
-  background: lightgray;
+  background: #A78C54;
   padding: 10px 20px;
   border-radius: 5px;
-  border: 2px solid #A78C54;
+  border: 2px solid white;
 }
 .container a{
   text-decoration: none;
