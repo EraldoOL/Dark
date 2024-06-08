@@ -59,11 +59,11 @@ body {
   width: 300px;
   margin: auto;
   margin-top: 20px;
-  border: .5px solid white;
+  border: 2px solid #A78C54;
   padding: 30px;
   border-radius: 10px;
   font-weight: 500;
-  box-shadow: .5px .5px 1.3px white;
+  box-shadow: 1px .5px 1.3px #A78C54;
 }
 
 #parceria{
@@ -84,8 +84,8 @@ body {
 
 #linha{
   width: 95vw;
-  height: .2px;
-  background-color: white;
+  height: 1px;
+  background-color: #A78C54;
   margin: auto;
   margin-top: 40px;
 }
@@ -113,7 +113,7 @@ body {
   background: lightgray;
   padding: 10px 20px;
   border-radius: 5px;
-  border: 1px solid white;
+  border: 2px solid #A78C54;
 }
 .container a{
   text-decoration: none;
@@ -150,7 +150,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid gray;
+  border: 2px solid #A78C54;
   border-radius: 10px;
   
 }
