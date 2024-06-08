@@ -1,148 +1,164 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 body {
-    background: black;
+  background: #121212;
+  color: #f5f5f5;
+  line-height: 1.6;
 }
-#Nick{
-  color: white;
+
+#Nick {
   font-style: italic;
   font-weight: 500;
-  margin-top: 20px;
-  margin-left: 10px;
+  margin: 20px 10px;
   text-decoration: underline;
   display: flex;
   justify-content: space-between;
   width: 95%;
 }
-#sociais{
+
+#sociais {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-#sociais a img{
-  width: 15px;
+
+#sociais a img {
+  width: 20px;
   margin: 5px;
+  transition: transform 0.3s ease;
 }
-#sociais #sociais1 img{
-  width: 17px;
+
+#sociais a:hover img {
+  transform: scale(1.2);
 }
-#img{
+
+#img {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#img img{
+#img img {
   width: 200px;
-  margin: auto;
+  margin: 20px auto;
 }
 
+#Quem {
+  margin: 20px 50px;
+}
 
-#Quem{
-  color: white;
-  margin-top: 20px;
-  margin-left: 50px;
-  width: 200px;
+#Quem h1 {
+  font-size: 24px;
+  font-weight: 700;
 }
-#Quem h1{
-  font-size: 20px;
-  font-weight: 400;
-}
-#text{
-  color: white;
-  font-size: 15px;
-  width: 300px;
-  margin: auto;
-  margin-top: 20px;
-  border: .5px solid #ffbf00;
+
+#text {
+  background: #1e1e1e;
+  color: #f5f5f5;
+  font-size: 16px;
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ffbf00;
   padding: 30px;
   border-radius: 10px;
   font-weight: 500;
-  box-shadow: 1px .5px 1.3px #A78C54;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-#parceria{
-  color: white;
+#text:hover {
+  transform: scale(1.02);
+}
+
+#parceria {
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 0;
 }
-#parceria h1{
-  font-size: 20px;
-  font-weight: 400;
-  
+
+#parceria h1 {
+  font-size: 24px;
+  font-weight: 700;
 }
-#parceria p{
+
+#parceria p {
   padding: 5px;
   font-weight: 500;
 }
 
-
-#linha{
-  width: 95vw;
+#linha {
+  width: 95%;
   height: 1px;
-  background-color: #A78C54;
-  margin: auto;
-  margin-top: 40px;
+  background-color: #ffbf00;
+  margin: 40px auto;
 }
 
-
-#Contrato{
-  color: white;
+#Contrato {
   text-align: center;
-  margin-top: 30px;
-  
+  margin: 30px 0;
 }
-#Contrato h1{
-  font-size: 20px;
-  font-weight: 400;
+
+#Contrato h1 {
+  font-size: 24px;
+  font-weight: 700;
 }
-#Contrato p{
+
+#Contrato p {
   font-weight: 500;
   padding: 5px;
 }
-.container{
+
+.container {
   text-align: center;
   margin-top: 10px;
 }
-.container button{
+
+.container button {
   background: #ffbf00;
   padding: 10px 20px;
   border-radius: 5px;
   border: 2px solid white;
-}
-.container a{
-  text-decoration: none;
-  color: black;
-  
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
-#p{
-  color: white;
-  width: 150px;
-  font-size: 10px;
+.container button:hover {
+  background: #e0ac00;
+  transform: scale(1.05);
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+#p {
+  width: 200px;
+  font-size: 14px;
   text-align: center;
-  margin: auto;
+  margin: 20px auto;
   padding: 20px;
 }
 
-
-#Novidades{
-  color: white;
+#Novidades {
   text-align: center;
   margin-top: 40px;
 }
-#Novidades h1{
-  font-size: 20px;
+
+#Novidades h1 {
+  font-size: 24px;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
-#novidade1{
+#novidade1 {
   width: 200px;
   height: 200px;
   background: lightgrey;
@@ -153,21 +169,22 @@ body {
   align-items: center;
   border: 2px solid #ffbf00;
   border-radius: 10px;
-  
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
+#novidade1:hover {
+  background: #e0e0e0;
+  transform: scale(1.05);
+}
 
-#frase{
-  color: white;
+#frase {
   text-align: center;
-  font-size: 15px;
-  margin-top: 20px;
-}
-#frase p{
+  font-size: 18px;
+  margin: 20px 0;
   font-style: italic;
-  
 }
 
+/* Estilos para tablets */
 @media (min-width: 600px) and (max-width: 768px) {
   #text {
     width: 400px;
@@ -180,7 +197,7 @@ body {
 
   #p {
     width: 200px;
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -190,21 +207,18 @@ body {
     font-size: 1.2rem;
     margin-left: 20px;
   }
-  
-  #img img{
-    width: 300px;
-  }
-  #sociais a img{
-    width: 20px;
-  }
-  #sociais #sociais1 img{
-    width: 23px;
-  }
 
   #Quem {
     width: 200px;
     margin: auto;
     margin-top: 30px;
+  }
+  
+  #sociais a img{
+    width: 20px;
+  }
+  #sociais #sociais1 img{
+    width: 23px;
   }
 
   #Quem h1 {
@@ -213,7 +227,7 @@ body {
 
   #text {
     width: 500px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 40px;
   }
 
@@ -231,4 +245,3 @@ body {
     font-size: 14px;
   }
 }
-
